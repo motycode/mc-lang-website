@@ -12,12 +12,10 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-section {
+.section {
   max-width: 1140px;
   margin: 0 auto;
 }
-
-/* Header */
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -25,4 +23,50 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 240%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+.header__slogan {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 1140px;
+}
+
+.btn:link,
+.btn:active,
+.btn:visited {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #e67e22;
+  border: 1px solid #e67e22;
+  transition: all 0.2s;
+}
+
+.btn--filled:link,
+.btn--filled:active,
+.btn--filled:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn:hover,
+.btn--filled:hover {
+  background-color: #cf6d17;
+  border: 1px solid #cf6d17;
+  color: #fff;
 }
