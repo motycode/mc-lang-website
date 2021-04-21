@@ -113,6 +113,35 @@ header {
 }
 
 /* ---------------------------------------- */
+/* PHOTOS */
+/* ---------------------------------------- */
+
+.photos {
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photos div {
+  width: 25%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.photos img {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+  transform: scale(1.15);
+  transition: all 0.5s;
+}
+
+.photos img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+/* ---------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ---------------------------------------- */
 
