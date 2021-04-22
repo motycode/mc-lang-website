@@ -189,6 +189,30 @@ header {
 }
 
 /* ---------------------------------------- */
+/* CITIES */
+/* ---------------------------------------- */
+
+.cities_wrapper {
+  display: flex;
+}
+
+.cities__item {
+  width: 25%;
+  padding: 10px 25px;
+}
+
+.cities__image img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.cities .fa {
+  display: inline-block;
+  margin-right: 15px;
+  color: #e67e22;
+}
+
+/* ---------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ---------------------------------------- */
 
@@ -271,4 +295,20 @@ h3 {
   background-color: #cf6d17;
   border: 1px solid #cf6d17;
   color: #fff;
+}
+
+/* ------- LINKS ------- */
+
+a:link,
+a:active,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid #e67e22;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: inherit;
+  border-bottom: 1px solid transparent;
 }
