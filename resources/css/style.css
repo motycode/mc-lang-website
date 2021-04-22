@@ -220,6 +220,55 @@ section {
   padding: 80px;
 }
 
+/* ---------------------------------------- */
+/* TESTIMONIALS */
+/* ---------------------------------------- */
+
+.testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url(img/header-background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.testimonials__wrapper {
+  display: flex;
+  font-style: italic;
+}
+
+.testimonials__item {
+  padding: 10px 15px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.testimonials__quote {
+  line-height: 145%;
+}
+
+.testimonials__quote:before {
+  content: "\201C";
+  font-size: 300%;
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+.testimonials__image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.testimonials__cite {
+  display: block;
+  margin-top: 20px;
+  font-size: 90%;
+}
+
 /* ------- HEADINGS ------- */
 
 h1,
