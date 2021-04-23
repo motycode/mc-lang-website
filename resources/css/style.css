@@ -6,9 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html {
   color: #555;
   font-family: "Lato", "Arial", sans-serif;
   font-weight: 300;
@@ -329,6 +326,28 @@ header {
 }
 
 /* ---------------------------------------- */
+/* CONTACT FORM */
+/* ---------------------------------------- */
+
+.contactForm {
+  width: 60%;
+  margin: 40px auto 0 auto;
+}
+
+.contactForm__row {
+  display: flex;
+  margin: 20px 0;
+}
+
+.contactForm__label {
+  width: 20%;
+}
+
+.contactForm__field {
+  width: 80%;
+}
+
+/* ---------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ---------------------------------------- */
 
@@ -387,7 +406,8 @@ h3 {
 
 .btn:link,
 .btn:active,
-.btn:visited {
+.btn:visited,
+input[type="submit"] {
   display: inline-block;
   margin-right: 15px;
   padding: 10px 30px;
@@ -397,11 +417,13 @@ h3 {
   color: #e67e22;
   border: 1px solid #e67e22;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 .btn--filled:link,
 .btn--filled:active,
-.btn--filled:visited {
+.btn--filled:visited,
+input[type="submit"] {
   background-color: #e67e22;
   color: #fff;
 }
@@ -427,4 +449,34 @@ a:visited {
 a:hover {
   color: inherit;
   border-bottom: 1px solid transparent;
+}
+
+/* ------- FORMS ------- */
+
+label {
+  width: 90%;
+  text-align: right;
+  margin-right: 25px;
+}
+
+input:not([type="checkbox"]):not([type="submit"]),
+select,
+textarea {
+  width: 90%;
+  padding: 7px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+}
+
+*:focus {
+  outline: none;
 }
