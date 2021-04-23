@@ -214,14 +214,6 @@ header {
 }
 
 /* ---------------------------------------- */
-/* REUSABLE COMPONENTS */
-/* ---------------------------------------- */
-
-section {
-  padding: 80px;
-}
-
-/* ---------------------------------------- */
 /* TESTIMONIALS */
 /* ---------------------------------------- */
 
@@ -268,6 +260,80 @@ section {
   display: block;
   margin-top: 20px;
   font-size: 90%;
+}
+
+/* ---------------------------------------- */
+/* SIGN UP */
+/* ---------------------------------------- */
+
+.signUp {
+  background-color: #f4f4f4;
+}
+
+.signUp__wrapper {
+  display: flex;
+}
+
+.signUp__item {
+  width: 33.3%;
+  background-color: transparent;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.signUp__top {
+  background-color: #fcfcfc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+}
+
+.signUp__middle {
+  background-color: #fff;
+  margin: 1px 0;
+  padding: 20px 30px;
+}
+
+.signUp__bottom {
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.signUp__price {
+  color: #e67e22;
+}
+
+.signUp__price--big {
+  font-size: 350%;
+  font-weight: 100;
+}
+
+.signUp__priceDay {
+  font-size: 80%;
+}
+
+.signUp__features {
+  list-style: none;
+}
+
+.signUp__feature {
+  line-height: 170%;
+}
+
+.signUp__features .fa {
+  color: #e67e22;
+  margin-right: 15px;
+}
+
+/* ---------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------- */
+
+section {
+  padding: 80px;
 }
 
 /* ------- HEADINGS ------- */
