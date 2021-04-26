@@ -219,7 +219,10 @@ header {
     url(img/header-background.jpg);
   background-size: cover;
   background-attachment: fixed;
-  color: #fff;
+}
+
+.testimonials__header {
+  color: #ddd;
 }
 
 .testimonials__wrapper {
@@ -235,6 +238,7 @@ header {
 
 .testimonials__quote {
   line-height: 145%;
+  color: #ddd;
 }
 
 .testimonials__quote:before {
@@ -257,6 +261,7 @@ header {
   display: block;
   margin-top: 20px;
   font-size: 90%;
+  color: #ddd;
 }
 
 /* ---------------------------------------- */
