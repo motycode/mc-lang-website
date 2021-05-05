@@ -7,10 +7,15 @@
   padding: 0;
   box-sizing: border-box;
   color: #555;
-  font-family: "Lato", "Arial", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body {
   font-weight: 300;
   font-size: 20px;
-  text-rendering: optimizeLegibility;
+  font-family: "Lato", "Arial", sans-serif;
+  overflow-x: hidden;
 }
 
 /* ---------------------------------------- */

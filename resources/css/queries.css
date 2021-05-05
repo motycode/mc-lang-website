@@ -1,0 +1,173 @@
+@media only screen and (max-width: 1200px) {
+  .header__slogan {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  div.section {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  section {
+    padding: 40px;
+  }
+
+  ul.nav {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  .features__header p {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .howItworks__item {
+    padding: 10px 30px;
+    display: flex;
+  }
+
+  .howItWorks__download {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+
+  .howItWorks__download img {
+    height: 60px;
+    padding-right: 20px;
+  }
+
+  .cities {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .cities__item {
+    padding: 10px 10px;
+  }
+  .signUp__item {
+    margin: 10px;
+  }
+  .signUp__middle {
+    padding: 15px 20px;
+  }
+
+  .signUp__price--big {
+    font-size: 250%;
+    font-weight: 100;
+  }
+
+  .contactForm {
+    width: 80%;
+    margin: 40px auto 0 auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  .header__slogan {
+    height: 60vh;
+  }
+  h1 {
+    font-size: 200%;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  h2:after {
+    margin-top: 20px;
+  }
+  section {
+    padding: 20px 10px;
+  }
+  .photos div {
+    width: 50%;
+  }
+  .features {
+    flex-wrap: wrap;
+  }
+  .features__item {
+    width: 50%;
+    flex: none;
+  }
+  .howItWorks__wrapper {
+    flex-wrap: wrap;
+  }
+  .howItWorks__smartphone {
+    margin: 0 auto;
+    height: 300px;
+  }
+  .howItWorks__download img {
+    height: 40px;
+  }
+  .cities_wrapper {
+    flex-wrap: wrap;
+  }
+  .cities__item {
+    width: 50%;
+  }
+  .testimonials__cite {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .signUp__wrapper {
+    flex-wrap: wrap;
+  }
+  .signUp__item {
+    width: 100%;
+    margin: 10px 5%;
+  }
+  .contactForm {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+  }
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+  }
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footerNav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footerNav__link {
+    width: 20%;
+    margin: 5px 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 160%;
+  }
+  .features__item {
+    width: 100%;
+  }
+  .cities__item {
+    width: 100%;
+  }
+  .testimonials__wrapper {
+    flex-wrap: wrap;
+  }
+  .signUp__item {
+    margin: 10px;
+  }
+}
