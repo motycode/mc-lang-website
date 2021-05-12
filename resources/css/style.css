@@ -111,6 +111,7 @@ header {
 
 .features {
   display: flex;
+  padding-top: 20px;
 }
 
 .features__item {
@@ -231,7 +232,7 @@ header {
   padding-bottom: 20px;
 }
 
-.cities .fa {
+.cities .fas {
   display: inline-block;
   margin-right: 15px;
   color: #e67e22;
@@ -258,6 +259,7 @@ header {
 }
 
 .testimonials__item {
+  width: 33.3%;
   padding: 10px 15px;
   margin-top: 30px;
   position: relative;
@@ -352,7 +354,7 @@ header {
   line-height: 170%;
 }
 
-.signUp__features .fa {
+.signUp__features .fas {
   color: #e67e22;
   margin-right: 15px;
 }
@@ -426,9 +428,8 @@ header {
   color: #ccc;
 }
 
-.footerSocial__icon .fa {
+.footerSocial__icon .fab {
   color: #888;
-  font-size: 90%;
 }
 
 .footerSocial {
