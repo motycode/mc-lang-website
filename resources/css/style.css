@@ -18,6 +18,13 @@ body {
   overflow-x: hidden;
 }
 
+input,
+textarea,
+select {
+  font-size: 80%;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
 /* ---------------------------------------- */
 /* HEADER */
 /* ---------------------------------------- */
