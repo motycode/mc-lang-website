@@ -29,9 +29,21 @@ header {
   background-position: center top;
   background-attachment: fixed;
   height: 100vh;
+  padding-top: 20px;
 }
 
 /* ------- LOGO ------- */
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__logo--white {
+  height: 80%;
+  object-fit: contain;
+}
 
 /* ------- NAVIGATION ------- */
 
@@ -81,6 +93,7 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 10%;
   height: 80vh;
   width: 1140px;
 }
