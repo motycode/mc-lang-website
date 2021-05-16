@@ -48,8 +48,19 @@ header {
 }
 
 .header__logo--white {
-  height: 80%;
+  height: 100%;
   object-fit: contain;
+}
+
+.header__logoLink {
+  height: 80%;
+}
+
+.header__nav .header__logoLink:link,
+.header__nav .header__logoLink:active,
+.header__nav .header__logoLink:hover,
+.header__nav .header__logoLink:visited {
+  border-bottom: none;
 }
 
 /* ------- NAVIGATION ------- */
