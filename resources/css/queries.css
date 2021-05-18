@@ -178,6 +178,9 @@
   .testimonials__wrapper {
     flex-wrap: wrap;
   }
+  .testimonials__item {
+    width: 100%;
+  }
   .signUp__item {
     margin: 10px;
   }
