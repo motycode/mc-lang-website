@@ -105,6 +105,10 @@ header {
   border-bottom: 2px solid #e67e22;
 }
 
+.nav--mobile {
+  display: none;
+}
+
 /* ------- NAVIGATION STICKY ------- */
 
 .navigation {

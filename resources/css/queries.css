@@ -36,8 +36,8 @@
     padding-top: 0;
   }
 
-  .header__logo--white {
-    height: 50%;
+  .navigation--sticky .header__logo--white {
+    height: 100%;
   }
 
   .features__header p {
@@ -103,6 +103,29 @@
   }
   section {
     padding: 20px 10px;
+  }
+  .navigation--sticky .header__logo--white {
+    height: 100%;
+  }
+  .nav {
+    display: none;
+  }
+  .nav--mobile {
+    display: block;
+    text-align: right;
+  }
+  .fa-bars {
+    margin: 20px;
+    color: #fff;
+  }
+  .nav--mobile a:link,
+  .nav--mobile a:active,
+  .nav--mobile a:visited,
+  .nav--mobile a:hover {
+    border: none;
+  }
+  .header__navItem {
+    width: 50%;
   }
   .photos div {
     width: 50%;
