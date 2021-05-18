@@ -184,4 +184,15 @@
   .signUp__item {
     margin: 10px;
   }
+  .footerNav__link {
+    width: 100%;
+  }
+  .footerSocial {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footerSocial__icon {
+    width: 100%;
+    margin: 5px 10px;
+  }
 }
